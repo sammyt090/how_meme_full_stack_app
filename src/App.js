@@ -1,6 +1,7 @@
 import React from 'react';
-import './App';
-import Headr from './Components/Header'
+import './App.css';
+import Header from './Components/Header'
+import routes from './routes'
 
 function App() {
   return (

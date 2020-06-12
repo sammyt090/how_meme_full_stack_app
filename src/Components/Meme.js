@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import {withRouter} from 'react-router-dom'
 import axios from 'axios'
 import {connect} from 'react-redux'
+import {favorited, unfavorite} from '../ducks/reducer'
 
 class Meme extends Component {
     constructor(){
